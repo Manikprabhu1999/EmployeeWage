@@ -30,5 +30,16 @@ public class EmployeeWage {
         
        empWage=empHrs*EMP_RATE_PER_HOUR;
        System.out.println("emp wage:"+empWage);
+       int totalWage=0;
+	for (int j=1;j<=20;j++)
+	{
+		totalWage=empWage+totalWage;
 	}
+	System.out.println("TOTAL WAGE:"+totalWage);
+	
+	
+	}
+	
+	
+	
 }
